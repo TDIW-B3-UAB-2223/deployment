@@ -1,0 +1,18 @@
+@startuml Database
+
+Entity "Product" as product {
+    id: int
+    name: VARCHAR
+    description: VARCHAR
+    price: int
+}
+
+Entity "ProductCategory" as productCategory {
+    slug: VARCHAR
+    name: VARCHAR
+}
+
+product -> productCategory : belongs to
+productCategory -> productCategory : belongs to
+
+@enduml
