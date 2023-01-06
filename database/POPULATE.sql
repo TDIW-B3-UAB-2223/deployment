@@ -19,4 +19,6 @@ VALUES
     ('Guitarra Acustica', 'Una guitarra acustica', 2500, 'guitarra'),
     ('Saxofon', 'Un saxofon', 2000, 'saxofon'),
     ('Grand Piano', 'Un piano', 2400, 'grand-piano'),
-    ('Bateria', 'Una bateria', 1500, 'bateria');
+    ('Bateria', 'Una bateria', 1500, 'bateria'),
+    ('Lira', 'Una lira', 1000, 'lira'),
+    ('Piano', 'Un piano', 2000, 'piano');
